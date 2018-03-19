@@ -24,3 +24,4 @@ Design notes (stories)
 Additional idea:  
 have master login that controls the creating of users and groups and adding users to groups.  
 
+UML sequence diagrams show requirements 1 & 3
