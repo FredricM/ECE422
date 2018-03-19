@@ -1,1 +1,26 @@
-Design notes (stories)
+Design notes (stories)  
+
+1.  Can create a user account with password that isn't already existing  
+2.  Can create a group that isn't already existing  
+3.  Can add a user to a group that isn't already in group  
+4.  Can login with existing user  
+5.  Be placed in homedirectory once logged in  
+6.  Can create file  
+7.  Can give permissions on the file to guest/group/specific users  
+8.  Can modify file (read, rename, write, delete)  
+9.  Can create directory  
+10. Can give permissions on the directory to guest/group/specific users  
+11. Can modify directory  
+12. Can view other users file   
+13. Can change directory to another user's "cd"  
+14. Can view a list of directories/files with "ls" command  
+15. Can logout of current account  
+16. Can login with a guest account (not a member)  
+17. Guest has no commands except "cd" "modify" and "ls"  
+18. System encrypts all files and folders that the guest is viewing except permission files and folders for guest to modify  
+19. Notify absent user of any changes of files/directories once they log back in  
+20. Connect server to online(elasticsearch? or something) to save accounts/files/directories  
+
+Additional idea:  
+have master login that controls the creating of users and groups and adding users to groups.  
+
