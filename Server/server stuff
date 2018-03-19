@@ -1,1 +1,2 @@
 server just saves files and directories locally 
+plan to seperate functions from main server.py in the future
